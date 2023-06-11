@@ -1,0 +1,38 @@
+.help-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .faq-section {
+
+    margin-bottom: 30px;
+    
+  }
+  .faq-section2{
+    margin-bottom: 30px;
+
+  }
+  .faq-section2 img{
+    width: 6%;
+  }
+  img{
+    width: 15%;
+  }
+  .faq-section3 img{
+    width: 95%;
+  }

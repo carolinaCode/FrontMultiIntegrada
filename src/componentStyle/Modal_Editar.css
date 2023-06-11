@@ -1,0 +1,50 @@
+.cadastroPaciente{
+    display:block;
+    margin: 33px;
+
+}
+.cadastroPaciente input{
+   margin-bottom: 25px;
+   width: 100%;
+   height: 45px;
+   border-radius: 8px;
+   border: 1.4px solid rgba(7, 32, 78, 0.589);
+   padding: 1.3em ;
+   font-size: 1em;
+   font-weight: 400;
+   font-family: 'Roboto Condensed', sans-serif;  
+   
+
+}
+.tituloForm{
+    color: rgb(255, 255, 255);
+    background-color: rgba(60, 65, 83, 0.719);
+    border-radius: 3px 3px 0px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+
+}
+
+
+.botaoModal button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin: 3px ;
+    width: 150px;
+
+}
+.botaoModal{
+    display: flex;
+    justify-content: end;
+}
+.modal {
+    background-color: #1212153f;
+}
+label{
+    font-size: large;
+
+}
+.botaoEditar{
+    border-radius: 10px;
+    
+}

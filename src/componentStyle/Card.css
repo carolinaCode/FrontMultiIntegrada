@@ -1,0 +1,23 @@
+.infPaciente p {
+   margin: 1px;
+}
+
+.infPaciente {
+    align-items: start;
+}
+
+.botao_card {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.div-pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.5rem;
+}
+
+.div-pagination-home {
+    margin-top: 0.3rem;
+}
