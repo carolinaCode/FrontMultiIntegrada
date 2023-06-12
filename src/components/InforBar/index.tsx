@@ -1,10 +1,14 @@
-import '../../componentStyle/BarraDeInformacoes.css'
 import dayjs from 'dayjs';
+import {Button} from 'react-bootstrap';
+import {GrLinkPrevious} from 'react-icons/gr'
+import {useNavigate} from 'react-router-dom'
+import './style.css'
 type Props = {
   patientDatas: any;
  }
 
 function Informacoes({patientDatas}:Props){
+    const navigate = useNavigate();
 
     return(
       <>
@@ -19,6 +23,7 @@ function Informacoes({patientDatas}:Props){
         <div className="info-age">Idade: {dayjs().year() - dayjs(patientDatas.birthdate).year()}</div>
         <div className="info-cpf">CPF: {patientDatas.identifier}</div>
         <div className="info-phone">Telefone: {patientDatas.phone_number}</div>
+        <div className='previous'><Button onClick={() => navigate("/")} variant='secundary' title='Voltar para a página inicial'><GrLinkPrevious/></Button></div>
       </div>
     </div>
     </div>

@@ -1,9 +1,9 @@
 import Header from "../Header"
-import '../../componentStyle/Help.css'
 import buttonAdd from './Images/botao.png'
 import buttonAction from './Images/botoes.png'
 import buttonAttendance from './Images/attendances.png'
 import table from './Images/table.png'
+import './style.css'
 
 export default function Help() {
   return (

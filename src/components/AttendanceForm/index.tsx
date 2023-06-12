@@ -12,7 +12,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Pagination } from '../Pagination';
-import '../../componentStyle/Form_Atendimento.css';
+import './style.css';
 
 export default function FormAtendimento() {
   const [itens, setItens] = useState([]);
@@ -210,7 +210,9 @@ export default function FormAtendimento() {
             </tbody>
           </Table>
         ) : (
+          <div className='nao-atendido'>
           <h1><Badge pill bg="dark">Paciente não possui atendimentos</Badge></h1>
+          </div>
         )}
       </div>
 

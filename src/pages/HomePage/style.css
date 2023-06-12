@@ -96,11 +96,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
+  margin-right: 80px;
 }
 
 /* Responsividade */
-@media screm (max-width: 708px) {
+@media screm(max-width: 708px) {
   .header {
     padding: 10px;
     width: 200px;

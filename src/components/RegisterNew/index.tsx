@@ -7,9 +7,9 @@ import Swal from 'sweetalert2';
 import api from '../../Axios';
 import {BsPersonPlus} from 'react-icons/bs';
 import ReactInputMask from "react-input-mask"
-import '../../componentStyle/ModalCad.css';
 import { ChangeEvent } from 'react';
 import dayjs from 'dayjs';
+import './style.css';
 
 type Props = {
   getAllPatients: () => void;

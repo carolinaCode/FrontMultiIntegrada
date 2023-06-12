@@ -1,8 +1,8 @@
 import Header from "../../components/Header";
-import "../../componentStyle/Form_Atendimento.css";
-import "../../pageStyle/Atendimento.css";
+import "../../components/AttendanceForm/style.css";
+import "../../components/InforBar/";
 import FormAtendimento from "../../components/AttendanceForm";
-import Informacoes from "../../components/InforBar/BarraDeInformações";
+import Informacoes from "../../components/InforBar";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import api from "../../Axios";

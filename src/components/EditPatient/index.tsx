@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import { Form } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 import { MdModeEditOutline } from 'react-icons/md';
-import '../../componentStyle/Modal_Editar.css';
+import './style.css';
 import api from '../../Axios';
 import Swal from 'sweetalert2';
 

@@ -59,7 +59,7 @@ h4 {
 }
 
 .table-lastAttendance {
-  width: 80%;
+  width: 100%;
   margin-bottom: 2rem;
   border-radius: 1rem;
 }
@@ -80,6 +80,20 @@ h4 {
   justify-content: center;
   margin-top: 5rem;
 }
+.nao-atendido{
+  margin-left: 543px;
+
+}
+.previous{
+    margin-left: 100px;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+  } 
+  .previous button{
+    margin-top: -10px;
+    font-size: 25px;
+    border: 20px;
+    filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.7));
+  }
 
 @media (max-width: 768px) {
   .form-atender {
@@ -102,7 +116,7 @@ h4 {
   }
 
   .table-lastAttendance {
-    width: 100%;
+    width: 50%;
   }
   #botaoFinalizar {
     display: flex;
@@ -110,5 +124,4 @@ h4 {
     margin: 1.5rem auto;
     filter: drop-shadow(0 6px 8px rgba(112, 112, 112, 0.3));
   }
-  
 }

@@ -10,7 +10,7 @@ import Toast from 'sweetalert2';
 import dayjs from 'dayjs';
 import api from '../../Axios';
 import ModalEditar from '../EditPatient';
-import '../../componentStyle/Card.css';
+import './style.css';
 
 type Props = {
   data: any;
