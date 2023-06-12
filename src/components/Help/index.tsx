@@ -32,7 +32,6 @@ export default function Help() {
       <p>Exemplo:</p><p> <img src={table}/> </p>
     </div>
     <p>Se você tiver alguma outra pergunta ou precisar de assistência adicional, não hesite em entrar em contato com nossa equipe de suporte.</p>
-    <p>Obrigado por utilizar nosso sistema de atendimento pessoal!</p>
   </div>
   </div>
   );
