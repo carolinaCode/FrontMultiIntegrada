@@ -179,8 +179,10 @@ export default function FormAtendimento() {
 
       <h1>Últimos atendimentos</h1>
 
-      <div className="last-attendances">
+      
         {lastAttendances.length > 0 ? (
+          <>
+          <div className="last-attendances">
           <Table  striped bordered hover className='table-lastAttendance'>
             <thead>
               <tr>
@@ -209,19 +211,23 @@ export default function FormAtendimento() {
               })}
             </tbody>
           </Table>
-        ) : (
-          <div className='nao-atendido'>
-          <h1><Badge pill bg="dark">Paciente não possui atendimentos</Badge></h1>
-          </div>
-        )}
-      </div>
-
-      <div className="div-pagination">
+          <div className="div-pagination">
         <Pagination
           changeSelectedPage={setPage}
           totalPages={totalPages}
         />
       </div>
+      </div>
+      </>
+        ) : (
+          <div className='nao-atendido'>
+          <h1><Badge pill bg="dark">Paciente não possui atendimentos</Badge></h1>
+          </div>
+        )}
+      
+      
     </div>
+    
+
   );
 }
