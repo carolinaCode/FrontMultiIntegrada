@@ -43,7 +43,7 @@ export default function Homes() {
         />
       </div>
 
-      <Container fluid>
+      <Container fluid style={{ paddingRight: "2rem" }}>
         <Row>
           {patients.map((patient) => (
             <Col md={4} xsm={6} sm={5} lg={2} xlg={2}>

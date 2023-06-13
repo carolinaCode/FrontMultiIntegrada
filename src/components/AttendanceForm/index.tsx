@@ -211,13 +211,14 @@ export default function FormAtendimento() {
               })}
             </tbody>
           </Table>
+          </div>
           <div className="div-pagination">
         <Pagination
           changeSelectedPage={setPage}
           totalPages={totalPages}
         />
       </div>
-      </div>
+     
       </>
         ) : (
           <div className='nao-atendido'>
