@@ -42,7 +42,7 @@ function Cards({ data, getAllPatients }: Props) {
 
           Toast.fire({
             icon: 'error',
-            title: 'Erro ao deletar paciente!'
+            title: 'Não é possível deletar pacientes com atendimentos!'
           });
         }
       }

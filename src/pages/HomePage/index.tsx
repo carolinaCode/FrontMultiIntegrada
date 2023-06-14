@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import ModalCad from "../../components/RegisterNew";
 import Cards from "../../components/CardPatient";
 import Header from "../../components/Header";
@@ -10,8 +10,6 @@ import "../../components/CardPatient/style.css"
 
 export default function Homes() {
   const [patients, setPatients] = useState([]);
-  const [path, setPath] = useState<any>([]);
-  const [pages, setPages] = useState<any>({});
   const [page, setPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState<number>(0);
 

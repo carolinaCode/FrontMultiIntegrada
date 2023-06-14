@@ -3,14 +3,18 @@ import buttonAdd from './Images/botao.png'
 import buttonAction from './Images/botoes.png'
 import buttonAttendance from './Images/attendances.png'
 import table from './Images/table.png'
+import {useNavigate} from 'react-router-dom'
+import {GrLinkPrevious} from 'react-icons/gr'
+import { Button } from "react-bootstrap"
 import './style.css'
 
 export default function Help() {
+  const navigate = useNavigate();
   return (
     <div>
       <Header/>
     <div className="help-page">
-    <h1>Página de Ajuda</h1>
+    <div className='previous'><Button onClick={() => navigate("/")} variant='secundary' title='Voltar para a página inicial'><GrLinkPrevious/></Button><h1>Página de Ajuda</h1></div>
     <p>Bem-vindo à página de ajuda do seu sistema de atendimento de checagem.</p>
     <p>Aqui você encontrará respostas para possíveis dúvidas e orientações sobre como utilizar o sistema de forma eficaz.</p>
     <div className="faq-section">
