@@ -17,7 +17,7 @@ function Header() {
     <div>
       <div className="header">
         <Link to="/">
-          <img title='oi' src={Logo}  />
+          <img title='Voltar para a página inicial' src={Logo}  />
         </Link>
 
         <OverlayTrigger
